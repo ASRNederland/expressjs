@@ -12,6 +12,8 @@ RUN npm install
 # If you are building your code for production
 # RUN npm install --only=production
 
+RUN npm install node-ssh
+
 # Bundle app source
 COPY src/server.js .
 
